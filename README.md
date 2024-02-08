@@ -60,4 +60,5 @@ Dentro de un sistema las operaciones suelen detectarse como verbos en infinitivo
 1. Objetos 
 Un objeto es una instancia de una clase
 
-<a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.youtube.com%2Fwatch%3Fv%3DjDkfTCGrQio&psig=AOvVaw0KYB2-TlrCmje3LlorTc2u&ust=1707460978027000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNiRg_qRm4QDFQAAAAAdAAAAABAP">
+![Texto alternativo](https://i.ytimg.com/vi/jDkfTCGrQio/maxresdefault.jpg)
+
