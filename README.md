@@ -25,7 +25,7 @@ Cracteristias:
 
 Es una planilla, o molde que permite construir objetos. Por ejemplo, si tuvieramos la clase Auto, ésta sería el plano para construir el Objeto (en este caso uno o varios autos)
 
-<div style="width: 300px; height: 200px; border: 1px solid #ccc; padding: 20px;">
+<div style="width: 300px; height: 200px; border: 2px solid #000; padding: 20px;">
   <!-- Contenido del cuadro -->
-  ¡Hola, este es mi cuadro personalizado en el README!
+  ¡Hola, este es mi cuadro con línea en el README!
 </div>
