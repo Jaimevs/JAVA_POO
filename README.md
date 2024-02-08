@@ -69,8 +69,8 @@ Es la representacion de un objeto que generalmente existe en la vida real.
 2. Constructores: Son funciones especiales que contienen las clases para permitir la creacion de objetos. Se llaman SIEMPRE igual que la clase
 
 Tipos:
->Constructor vacío
->Constructor con todos los parametros
+°Constructor vacío
+°Constructor con todos los parametros
 
 ```java
 
