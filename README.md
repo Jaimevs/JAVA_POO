@@ -25,7 +25,7 @@ Características:
 
 Es una plantilla, o molde que permite construir objetos. Por ejemplo, si tuviéramos la clase Auto, ésta sería el plano para construir el Objeto (en este caso uno o varios autos)
 
-```html
+```java
     public class Alumno {
 
       //Atributos de la clase Alumno
