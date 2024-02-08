@@ -1,43 +1,31 @@
 # JAVA_POO
 
-# Título del Proyecto
-
 Breve descripción del proyecto.
 
 ---
 
-## Método Cornell para Toma de Apuntes
+## POO con JAVA
 
 ### I. Introducción
 
-Breve descripción del Método Cornell y su utilidad para la toma de apuntes.
+Paradigma: Es todo modelo, patron o ejemplo que debe seguirse en determinada situacion. 
 
-### II. Estructura del Repositorio
+POO: Se basa en la idea de un mundo lleno de objetos y que la resolucion de problemas se realiza mediante el modelo/abstraccion de objetos de la vida rela
 
-- **`/docs`**: Contiene documentos importantes.
-  - **`/docs/Apuntes`**: Carpeta para almacenar tus apuntes según el Método Cornell.
+Objetos: Los objetos pueden  comunicarse entre si mediante mensajes
 
-### III. Cómo Utilizar
+Cracteristias:
+1.  Abstracción
+2.  Encapsulamiento
+3.  Polimorfismo
+4.  Herencia
+5.  UML  (Lenguaje Universidad de Modelado)
 
-1. Abre la carpeta `/docs/Apuntes`.
-2. Crea un nuevo archivo para cada sesión de clase.
-3. Sigue la estructura de columnas de la izquierda y la derecha.
+### III. CLASES
 
-### IV. Ejemplo de Apunte
+Es una planilla, o molde que permite construir objetos. Por ejemplo, si tuvieramos la clase Auto, ésta sería el plano para construir el Objeto (en este caso uno o varios autos)
 
-**Nombre del Archivo:** `Clase_1.md`
-
-```markdown
-# Clase 1 - Fecha
-
-## Columna de la Izquierda
-
-- Palabras clave y preguntas.
-
-## Columna de la Derecha (Superior)
-
-- Notas durante la clase.
-
-## Columna de la Derecha (Inferior)
-
-- Resúmenes y conclusiones.
+<div style="width: 300px; height: 200px; border: 1px solid #ccc; padding: 20px;">
+  <!-- Contenido del cuadro -->
+  ¡Hola, este es mi cuadro personalizado en el README!
+</div>
