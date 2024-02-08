@@ -58,7 +58,7 @@ Dentro de un sistema las operaciones suelen detectarse como verbos en infinitivo
     }
 ```
 
-### METODOS CONSTRUCTORES y OBJETOS en JAVA
+### V. METODOS CONSTRUCTORES y OBJETOS en JAVA
 
 1. Objetos: Un objeto es una instancia de una clase
 
@@ -69,8 +69,8 @@ Es la representacion de un objeto que generalmente existe en la vida real.
 2. Constructores: Son funciones especiales que contienen las clases para permitir la creacion de objetos. Se llaman SIEMPRE igual que la clase
 
 Tipos:
-°Constructor vacío
-°Constructor con todos los parametros
+>Constructor vacío
+>Constructor con todos los parametros
 
 ```java
 
@@ -103,10 +103,93 @@ public class Alumno {
 public class POO {
     public static void main(String[] args){
         
-        Alumno alu1 = new Alumno (); //estoy haciendo referencia al objeto vacio
+        Alumno alu1 = new Alumno ();
         Alumno alu2 = new Alumno (2, "Jaime", "Vazquez");
 
     }
 }
 ```
 
+### VI. Get (Traer) y Set (Colocar o Modificar)
+
+```java
+public class Alumno {
+
+    //Atributos de la clase Alumno
+    int id;
+    String nombre;
+    String apellido;
+
+    public Alumno() { //Constructor vacío     
+    }
+
+    //Objeto Alumno
+    public Alumno(int id, String nombre, String apellido){ 
+        this.id = id;
+        this.nombre = nombre;
+        this.apellido = apellido;
+    }
+
+    //Get = Traer
+    public int getId(){
+        return id;
+    }
+
+    public String getNombre(){
+        return nombre;
+    }
+
+    public String getApellido(){
+        return apellido;
+    }
+
+    // SET = Colocar
+    public void setid(int id) {
+        this.id = id;
+    }
+
+    public void setnombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setapellido(String apellido) {
+        this.apellido =apellido;
+    }
+}
+```
+
+```java
+    public class POO {
+    public static void main(String[] args) {
+
+        Alumno alu1 = new Alumno();
+        Alumno alu2 = new Alumno(2, "Jaime", "Vazquez");
+
+        System.out.println("-------------------------------");
+        // Get = Traer
+        System.out.println("La id del alumno 2 es: " + alu2.getId());
+        System.out.println("El nombre es: " + alu2.getNombre());
+        System.out.println("El apellido es: " + alu2.getApellido());
+
+        System.out.println("-------------------------------");
+        // SET = Colocar o Modificar
+        alu1.setid(8);
+        alu1.setnombre("Luis");
+        alu1.setapellido("Ortiz");
+
+        System.out.println("La id del alumno 1 es: " + alu1.getId());
+        System.out.println("El nombre es: " + alu1.getNombre());
+        System.out.println("El apellido es: " + alu1.getApellido());
+
+        System.out.println("-------------------------------");
+        alu1.setid(35); //Cambio de valor, lo estoy sobrescribiendo
+
+        System.out.println("La id del alumno 1 es: " + alu1.getId());
+        System.out.println("El nombre es: " + alu1.getNombre());
+        System.out.println("El apellido es: " + alu1.getApellido());
+
+    }
+}
+
+
+```
