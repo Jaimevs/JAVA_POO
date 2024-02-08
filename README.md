@@ -26,7 +26,14 @@ Características:
 Es una plantilla, o molde que permite construir objetos. Por ejemplo, si tuviéramos la clase Auto, ésta sería el plano para construir el Objeto (en este caso uno o varios autos)
 
 ```html
-<div style="width: 300px; height: 200px; border: 2px solid #000; padding: 20px;">
-  <!-- Contenido del cuadro -->
-  ¡Hola, este es mi cuadro con línea en el README!
-</div>
+    public class Alumno {
+
+      //Atributos de la clase Alumno
+      int id;
+      String nombre;
+      String apellido;
+
+}
+```
+
+
