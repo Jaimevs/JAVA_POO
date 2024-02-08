@@ -1,6 +1,7 @@
 # JAVA_POO
 
-Breve descripción del proyecto.
+
+La Programación Orientada a Objetos (POO) es un paradigma de programación que se basa en el concepto de "objetos". Los objetos son instancias de clases, y las clases son plantillas que definen la estructura y el comportamiento de esos objetos. Java es un lenguaje de programación que sigue el paradigma de la POO de manera sólida.
 
 ---
 
@@ -69,8 +70,9 @@ Es la representacion de un objeto que generalmente existe en la vida real.
 2. Constructores: Son funciones especiales que contienen las clases para permitir la creacion de objetos. Se llaman SIEMPRE igual que la clase
 
 Tipos:
->Constructor vacío
->Constructor con todos los parametros
+Constructor vacío
+
+Constructor con todos los parametros
 
 ```java
 
