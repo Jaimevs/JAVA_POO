@@ -207,5 +207,7 @@ La nueva clase, a la que se denomina subclase, puede poseer atributos y métodos
 
 ![Texto alternativo](https://www.arquitecturajava.com/wp-content/uploads/personas-1.png)
 
+**Clase Persona.java**
+
 
 
