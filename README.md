@@ -284,4 +284,121 @@ public class Persona {
 }
 ```
 
+**Clase Empleado.java**
+
+```java
+package herencia;
+
+public class Empleado extends Persona { // extends Persona <--ya tengo una relacion entre la clase Empleado y Persona
+
+    int num_legajo;
+    String cargo;
+    Double sueldo;
+
+    public Empleado() {
+    }
+
+    // Atributos que hereda (id, dni, nombre, apellido, domicilio, telefono)
+    public Empleado(int num_legajo, String cargo, Double sueldo, int id, String dni, String nombre, String apellido,
+            String domicilio, String telefono) {
+        super(id, dni, nombre, apellido, domicilio, telefono);
+        this.num_legajo = num_legajo;
+        this.cargo = cargo;
+        this.sueldo = sueldo;
+    }
+
+    public int getNum_legajo() {
+        return num_legajo;
+    }
+
+    public void setNum_legajo(int num_legajo) {
+        this.num_legajo = num_legajo;
+    }
+
+    public String getCargo() {
+        return cargo;
+    }
+
+    public void setCargo(String cargo) {
+        this.cargo = cargo;
+    }
+
+    public Double getSueldo() {
+        return sueldo;
+    }
+
+    public void setSueldo(Double sueldo) {
+        this.sueldo = sueldo;
+    }
+
+    
+}
+```
+
+**Clase Consultor.java**
+
+```java
+package herencia;
+
+public class Consultor extends Persona{ // extends Persona <--ya tengo una relacion entre la clase Consultor y Persona
+    String nombre_consultora;
+    int num_consultos;
+
+    public Consultor(){
+    }
+
+    public Consultor(int id, String dni, String nombre, String apellido, String domicilio, String telefono,
+            String nombre_consultora, int num_consultos) {
+        super(id, dni, nombre, apellido, domicilio, telefono);
+        this.nombre_consultora = nombre_consultora;
+        this.num_consultos = num_consultos;
+    }
+
+    public String getNombre_consultora() {
+        return nombre_consultora;
+    }
+
+    public void setNombre_consultora(String nombre_consultora) {
+        this.nombre_consultora = nombre_consultora;
+    }
+
+    public int getNum_consultos() {
+        return num_consultos;
+    }
+
+    public void setNum_consultos(int num_consultos) {
+        this.num_consultos = num_consultos;
+    }
+
+    
+
+    
+}
+
+```
+
+**Clase Herencia.java**
+
+```java
+package herencia;
+public class Herencia {
+
+    public static void main(String[] args){
+        Empleado empleado1 = new Empleado();
+        empleado1.getNum_legajo(); 
+        empleado1.getId();
+        empleado1.getNombre();
+
+
+        Consultor consultor1 =new Consultor();
+        consultor1.getNombre_consultora();
+        consultor1.getApellido();
+        consultor1.getNombre();
+
+
+    }
+
+}
+
+```
 
