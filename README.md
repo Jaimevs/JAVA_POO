@@ -402,3 +402,15 @@ public class Herencia {
 
 ```
 
+### IX. POLIMORFISMO en JAVA
+
+POLI=Muchas
+
+Morfismo=Formas
+
+A partir de un objeto que pertenece a una clase madre o interfaz, puedo tener objetos con clases hijas que comparten atributos y métodos comunes. Esto permite que objetos de clases distintas se consideren como si tuvieran la forma de un solo objeto, lo que facilita su manipulación de manera cohesiva dentro de un programa.
+
+
+![Texto alternativo](https://www.google.com/url?sa=i&url=https%3A%2F%2Famyluis.wordpress.com%2Fpolimorfismo%2F&psig=AOvVaw0lrqoIX8A0zxy61w-LXdJY&ust=1707696739000000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJj38puAooQDFQAAAAAdAAAAABBD)
+
+
