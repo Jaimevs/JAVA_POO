@@ -414,3 +414,66 @@ A partir de un objeto que pertenece a una clase madre o interfaz, puedo tener ob
 ![Texto alternativo](https://amyluis.files.wordpress.com/2016/03/polimorfismo-110429185942-phpapp02-thumbnail-4.jpg?w=415&h=311)
 
 
+**Clase Jefe.java**
+
+```java
+package herencia;
+
+public class Jefe extends Persona {
+    int id_jefe;
+    String departamento_jefe;
+
+    public Jefe() {
+    }
+
+    public Jefe(int id_jefe, String departamento_jefe, int id, String dni, String nombre, String apellido,
+            String domicilio, String telefono) {
+        super(id, dni, nombre, apellido, domicilio, telefono);
+        this.id_jefe = id_jefe;
+        this.departamento_jefe = departamento_jefe;
+
+    }
+
+    public int getId_jefe() {
+        return id_jefe;
+    }
+
+    public void setId_jefe(int id_jefe) {
+        this.id_jefe = id_jefe;
+    }
+
+    public String getDepartamento_jefe() {
+        return departamento_jefe;
+    }
+
+    public void setDepartamento_jefe(String departamento_jefe) {
+        this.departamento_jefe = departamento_jefe;
+    }
+
+}
+    
+```
+
+**Clase Herencia.java**
+
+```java
+    package herencia;
+
+public class Herencia {
+
+    public static void main(String[] args) {
+        Persona vector[] = new Persona[5]; //las clases empleado, consultro y jefe son clases hijas y son formas diferentes de representar una misma persona me permite que en un vector que pertenesca a la clases padre yo pueda guardar distintos tipos que pertenescan a clases hijas  
+        vector[0] = new Persona(); // Clase Madre
+        vector[1] = new Empleado(); // Clase hija
+        vector[2] = new Consultor();// Clase hija
+        vector[3] = new Jefe(); // Clase hija
+
+        Persona perso=new Persona();
+        Consultor consul=new Consultor();
+
+        perso=consul;
+    }
+
+}
+
+```
