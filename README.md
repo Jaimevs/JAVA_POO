@@ -1,4 +1,4 @@
-# JAVA_POO
+![image](https://github.com/Jaimevs/JAVA_POO/assets/158859972/6f5f7bf5-e5d1-4c15-9aae-d38b1744a82f)# JAVA_POO
 
 
 La Programación Orientada a Objetos (POO) es un paradigma de programación que se basa en el concepto de "objetos". Los objetos son instancias de clases, y las clases son plantillas que definen la estructura y el comportamiento de esos objetos. Java es un lenguaje de programación que sigue el paradigma de la POO de manera sólida.
@@ -490,7 +490,7 @@ Encapsulamiento: Significa reunir a todos los elementos que pueden considerarse 
 
 Principio de Ocultación: Cada objeto está aislado y únicamente expone una interfaz a otros objetos donde especifica cómo pueden unteractuar con él. 
 
-![Texto alternativo](https://edea.juntadeandalucia.es/bancorecursos/file/95e089da-b938-4d08-a03c-5e773972e8e7/1/es-an_2016120212_9103251.zip/Encapsulamiento_Ocultacion.jpg)
+![Texto alternativo](https://i.ytimg.com/vi/MHQZyCniPkk/maxresdefault.jpg)
 
 **El encapsulamiento permite 3 niveles de acceso:**
 + PUBLIC (Público)
