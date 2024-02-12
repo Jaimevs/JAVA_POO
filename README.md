@@ -23,6 +23,12 @@ Características:
 4. Herencia
 5. UML (Lenguaje Universidad de Modelado)
 
+### II. ABSTRACCION
+
+La abstracción implica crear clases y objetos que representen entidades del mundo real, pero sin tener que modelar cada detalle de esas entidades. Por ejemplo, si estás trabajando en un programa que gestiona una biblioteca, puedes abstraer un libro como un objeto con propiedades como título, autor y número de páginas, sin necesidad de conocer todos los detalles internos de cómo se almacena la información en la base de datos o cómo se imprime el libro físicamente.
+
+![Texto alternativo](https://miro.medium.com/v2/resize:fit:1158/1*1vV6joTkLmoUlTaYMeJ4ig.png)
+
 ### III. CLASES
 
 Es una plantilla, o molde que permite construir objetos. Por ejemplo, si tuviéramos la clase Auto, ésta sería el plano para construir el Objeto (en este caso uno o varios autos)
