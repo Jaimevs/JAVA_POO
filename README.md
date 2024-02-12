@@ -484,6 +484,20 @@ public class Herencia {
 
 ```
 
-### ENCAPSULAMIENTO en JAVA 
+### X. ENCAPSULAMIENTO en JAVA
+
+Encapsulamiento: Significa reunir a todos los elementos que pueden considerarse pertenencientes a una misma entidad, al mismo nivel de abstracción. 
+
+Principio de Ocultación: Cada objeto está aislado y únicamente expone una interfaz a otros objetos donde especifica cómo pueden unteractuar con él. 
+
+![Texto alternativo](https://edea.juntadeandalucia.es/bancorecursos/file/95e089da-b938-4d08-a03c-5e773972e8e7/1/es-an_2016120212_9103251.zip/Encapsulamiento_Ocultacion.jpg)
+
+**El encapsulamiento permite 3 niveles de acceso:**
++ PUBLIC (Público)
++ PRIVATE (Privado)
++ PROTECTED (Protegido)
+
+
+
 
 
