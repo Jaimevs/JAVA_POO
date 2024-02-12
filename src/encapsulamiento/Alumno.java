@@ -7,7 +7,7 @@ public class Alumno {
     private String nombre;
     private String apellido;
 
-    private Alumno(){
+    public Alumno(){
     }
 
     public Alumno(int id, String nombre, String apellido){
@@ -16,7 +16,7 @@ public class Alumno {
         this.apellido=apellido;
     }
 
-    public int getId() {
+    private int getId() {
         return id;
     }
 
