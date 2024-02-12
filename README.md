@@ -499,6 +499,6 @@ Principio de Ocultación: Cada objeto está aislado y únicamente expone una int
 
 ![image](imagen/imagen1.png)
 
-
+Como podemos ver en la imagen an la clase Alumno declaramos el constructor vacio como privado y podemos ver que en la clase Encapsulamiento podemos ver como tenemos un error cuando creamos el alumno1, ya que el error nos dice que debemos crear el constructor Alumno, pero si ya esta creado, eso es por que esta PRIVATE. 
 
 
