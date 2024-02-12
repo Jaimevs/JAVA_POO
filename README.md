@@ -497,7 +497,7 @@ Principio de Ocultación: Cada objeto está aislado y únicamente expone una int
 + PRIVATE (Privado): Si es privado unicamente se puede decalarar dentro de la clase donde esta declarado o donde esta especificado 
 + PROTECTED (Protegido): Es un intermedio entre privado y público. Establece que el acceso de los métodos o atributos que estén declarados de esta manera solo puede ser utilizado dentro de la misma clase, también en sus clases hijas cuando se aplica herencia.
 
-
+![image](imagen/imagen1.png)
 
 
 
