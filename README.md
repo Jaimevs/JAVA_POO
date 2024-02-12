@@ -493,9 +493,10 @@ Principio de Ocultación: Cada objeto está aislado y únicamente expone una int
 ![image](https://github.com/Jaimevs/JAVA_POO/assets/158859972/6f5f7bf5-e5d1-4c15-9aae-d38b1744a82f)
 
 **El encapsulamiento permite 3 niveles de acceso:**
-+ PUBLIC (Público)
-+ PRIVATE (Privado)
-+ PROTECTED (Protegido)
++ PUBLIC (Público): Todo Atributo o Metodo que tenga PUBLIC adelante puede ser utilizado desde cualquier clase, posicion que tengamos dentro de nuestra aplicacion. 
++ PRIVATE (Privado): Si es privado unicamente se puede decalarar dentro de la clase donde esta declarado o donde esta especificado 
++ PROTECTED (Protegido): Es un intermedio entre privado y público. Establece que el acceso de los métodos o atributos que estén declarados de esta manera solo puede ser utilizado dentro de la misma clase, también en sus clases hijas cuando se aplica herencia.
+
 
 
 
