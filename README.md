@@ -502,3 +502,14 @@ Principio de Ocultación: Cada objeto está aislado y únicamente expone una int
 Como podemos ver en la imagen an la clase Alumno declaramos el constructor vacio como privado y podemos ver que en la clase Encapsulamiento podemos ver como tenemos un error cuando creamos el alumno1, ya que el error nos dice que debemos crear el constructor Alumno, pero si ya esta creado, eso es por que esta PRIVATE. 
 
 
+### XI. CLASES ABSTRACTAS en JAVA
+
+Son un tipo particulas de clase cuyo principal características es que NO PUEDEN ser instanciarse.
+
+Cuando se usan clases abstractas una clase no puede heredar de varias clases abstractas a la vez (como es en el casso de lass interfaces)
+
+¿Cuándo se usan las Clases Abstractas?
+Cuando deseamos definir una abstraccion que engloba objetos de distintos tipos y queremos hacer uso del polimorfismo. 
+
+
+
