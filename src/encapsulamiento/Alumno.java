@@ -16,7 +16,7 @@ public class Alumno {
         this.apellido=apellido;
     }
 
-    private int getId() {
+    private int getId() {  //esto esta Privado
         return id;
     }
 
